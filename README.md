@@ -14,11 +14,23 @@ Data is collected using a GUI drawing tool designed using Tkinter. An example ta
 ## CFE - Methods
 We provide details on the computational benchmark methods in our experiments. One of the hard criteria for selecting these methods was based on the availability of open source code. 
 
-### Min-Edit CFE - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CF.ipynb) 
-### CEM CFE - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CEM.ipynb)
-### VLK CFE - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CFProto.ipynb)
-### Revise - (https://github.com/benedikthoeltgen/DeDUCE)
+### Min-Edit CFE [1] - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CF.ipynb) 
+### CEM CFE [2] - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CEM.ipynb)
+### VLK CFE [3] - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CFProto.ipynb)
+### Revise [4, 5] - (https://github.com/benedikthoeltgen/DeDUCE)
 
 ## Acknowledgements
 
 We would like to thank the curators of the MNIST and the Google Quickdraw datasets that were were used extensively in our experiments. We would also like to thank Benedik Hoeltgen his colleagues at OATML as their excellent [open source code](https://github.com/benedikthoeltgen/DeDUCE) was extremely useful for implementing Revise. Finally we would like to thank Seldon Alibi as their open source code was extensively used. 
+
+### References
+
+[1] Wachter,  S.,  Mittelstadt,  B.,  Russell,  C.:  Counterfactual  explanations  withoutopening the black box: automated decisions and the gdpr. Harv.J.Law Tech.31,841 (2017)
+
+[2] Dhurandhar, Amit, et al. "Explanations based on the missing: Towards contrastive explanations with pertinent negatives." Advances in neural information processing systems 31 (2018).
+
+[3] Looveren, Arnaud Van, and Janis Klaise. "Interpretable counterfactual explanations guided by prototypes." Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, Cham, 2021.
+
+[4] Joshi, Shalmali, et al. "Towards realistic individual recourse and actionable explanations in black-box decision making systems." arXiv preprint arXiv:1907.09615 (2019).
+
+[5] Höltgen, Benedikt, et al. "DeDUCE: Generating Counterfactual Explanations Efficiently." arXiv preprint arXiv:2111.15639 (2021).
