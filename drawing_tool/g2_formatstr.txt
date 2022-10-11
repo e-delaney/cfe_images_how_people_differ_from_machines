@@ -1,0 +1,7 @@
+Program Label: %predicted
+Human Label: %true
+
+
+This is an image of a %true that was incorrectly labelled by the program as being a %predicted. 
+
+Your task is to make changes or edits to the image, to help the program correctly label the image as a %true.
