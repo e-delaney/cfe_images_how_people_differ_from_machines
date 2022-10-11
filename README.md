@@ -1,4 +1,5 @@
-# user-data-cfe-image
+# cfe_images_how_people_differ_from_machines
+
 This repository contains ground truth user counterfactual explanations for explaining the misclassifications of a CNN on images from (i) MNIST and (ii) Quickdraw.  
 
 
@@ -9,3 +10,11 @@ The original query images (that are misclassified by a CNN) and the correspondin
 Data is collected using a GUI drawing tool designed using Tkinter. An example task on the MNIST dataset that demonstrates the interface and instructions can be seen below:
 
 ![Image of MNIST Instruction](https://github.com/e-delaney/user-data-cfe-image/blob/5d124ca3e1c5b0179b7ec1015040169e23abb06a/MNIST/sample_task_G1.PNG)
+
+## CFE - Methods
+We provide details on the computational benchmark methods in our experiments. One of the hard criteria for selecting these methods was based on the availability of open source code. 
+
+### Min-Edit CFE - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CF.ipynb) 
+### CEM CFE - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CEM.ipynb)
+### VLK CFE - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CFProto.ipynb)
+### Revise - (https://github.com/benedikthoeltgen/DeDUCE)
