@@ -21,4 +21,4 @@ We provide details on the computational benchmark methods in our experiments. On
 
 ## Acknowledgements
 
-We would like to thank the curators of the MNIST and the Google Quickdraw datasets that were were used extensively in our experiments. We would also like to thank Benedik Hoeltgen his colleagues as their excellent [open source code](https://github.com/hfawaz/dl-4-tsc) was extremely useful for implementing Revise.
+We would like to thank the curators of the MNIST and the Google Quickdraw datasets that were were used extensively in our experiments. We would also like to thank Benedik Hoeltgen his colleagues at OATML as their excellent [open source code](https://github.com/benedikthoeltgen/DeDUCE) was extremely useful for implementing Revise. Finally we would like to thank Seldon Alibi as their open source code was extensively used. 
