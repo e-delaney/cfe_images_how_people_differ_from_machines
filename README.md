@@ -18,3 +18,7 @@ We provide details on the computational benchmark methods in our experiments. On
 ### CEM CFE - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CEM.ipynb)
 ### VLK CFE - (https://github.com/SeldonIO/alibi/blob/master/doc/source/methods/CFProto.ipynb)
 ### Revise - (https://github.com/benedikthoeltgen/DeDUCE)
+
+## Acknowledgements
+
+We would like to thank the curators of the MNIST and the Google Quickdraw datasets that were were used extensively in our experiments. We would also like to thank Benedik Hoeltgen his colleagues as their excellent [open source code](https://github.com/hfawaz/dl-4-tsc) was extremely useful for implementing Revise.
